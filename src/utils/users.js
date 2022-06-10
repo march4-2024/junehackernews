@@ -6,12 +6,6 @@ export const userList = [
     beta_access: true
   },
   {
-    username: 'alphauser',
-    password: 'alphauser',
-    company: 'monolith inc',
-    beta_access: false
-  },
-  {
     username: 'normaluser',
     password: 'normaluser',
     company: 'generic co',
@@ -32,19 +26,7 @@ export const betaAccess = () => {
     return localUser.beta_access
   }
 }
-export const alphaAccess = () => {
-  if (localStorage.getItem('user') === null) {
-    return false
-  } else {
-    let localUser = {}
-    userList.map((user) => {
-      if (user.username === localStorage.getItem('user')) {
-        localUser = user
-      }
-    })
-    return localUser.beta_access
-  }
-}
+
 export const isLoggedIn = () => {
   return localStorage.getItem('user') !== null
 }
