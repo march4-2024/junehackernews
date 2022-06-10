@@ -42,7 +42,7 @@ export const alphaAccess = () => {
         localUser = user
       }
     })
-    return localUser.alpha_access
+    return localUser.beta_access
   }
 }
 export const isLoggedIn = () => {
