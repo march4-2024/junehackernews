@@ -26,10 +26,10 @@ const options = {
   configurationFetchedHandler: configurationFetchedHandler,
   impressionHandler: impressionHandler
 }
-Rox.setCustomBooleanProperty('isAlphaUser', alphaAccess())
+
 Rox.setCustomBooleanProperty('isBetaUser', betaAccess())
 Rox.setCustomBooleanProperty('isLoggedIn', isLoggedIn())
 Rox.setCustomStringProperty('company', getCompany())
 
 Rox.register('default', Flags)
-Rox.setup('62434e903843c7cd899f0546', options)
+Rox.setup(process.env.VUE_APP_ROLLOUT_KEY, options)
