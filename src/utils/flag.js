@@ -32,4 +32,4 @@ Rox.setCustomBooleanProperty('isLoggedIn', isLoggedIn())
 Rox.setCustomStringProperty('company', getCompany())
 
 Rox.register('default', Flags)
-Rox.setup(process.env.62434e903843c7cd899f0546, options)
+Rox.setup('62434e903843c7cd899f0546', options)
