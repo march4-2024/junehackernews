@@ -24,6 +24,7 @@
               </div>
               <p><a><small @click="normalUser">Normal user: normaluser/normaluser</small></a></p>
               <p><a><small @click="betaUser">Beta user: betauser/betauser</small></a></p>
+              <p><a><small @click="alphaUser">Alpha user: alphauser/alphauser</small></a></p>
             </form>
           </div>
         </div>
@@ -49,6 +50,10 @@ export default {
     betaUser: function () {
       this.username = 'betauser'
       this.password = 'betauser'
+    },
+    alphaUser: function () {
+      this.username = 'alphauser'
+      this.password = 'alphauser'
     },
     ...mapActions([
       'login'
