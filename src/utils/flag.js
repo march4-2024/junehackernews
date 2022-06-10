@@ -32,4 +32,4 @@ Rox.setCustomBooleanProperty('isLoggedIn', isLoggedIn())
 Rox.setCustomStringProperty('company', getCompany())
 
 Rox.register('default', Flags)
-Rox.setup(process.env.VUE_APP_ROLLOUT_KEY, options)
+Rox.setup(process.env.62434e903843c7cd899f0546, options)
