@@ -26,7 +26,7 @@ const options = {
   configurationFetchedHandler: configurationFetchedHandler,
   impressionHandler: impressionHandler
 }
-
+Rox.setCustomBooleanProperty('isAlphaUser', alphaAccess())
 Rox.setCustomBooleanProperty('isBetaUser', betaAccess())
 Rox.setCustomBooleanProperty('isLoggedIn', isLoggedIn())
 Rox.setCustomStringProperty('company', getCompany())
