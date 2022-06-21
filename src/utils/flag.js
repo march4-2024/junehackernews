@@ -33,4 +33,5 @@ Rox.setCustomStringProperty('company', getCompany())
 
 Rox.register('default', Flags)
 //Rox.setup(process.env.VUE_APP_ROLLOUT_KEY, options)
+//Example app
 Rox.setup('6206d925d0d3c99087a0e080', options)
