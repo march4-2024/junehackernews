@@ -4,12 +4,21 @@ export const userList = [
     password: 'betauser',
     company: 'acme global',
     beta_access: true
+
+  },
+  {
+    username: 'alphauser',
+    password: 'alphauser',
+    company: 'nimbuswasps',
+    beta_access: false
+
   },
   {
     username: 'normaluser',
     password: 'normaluser',
     company: 'generic co',
     beta_access: false
+
   }
 ]
 
