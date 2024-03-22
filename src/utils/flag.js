@@ -46,7 +46,7 @@ const options = {
   disableSignatureVerification: true
 }
 
-  Rox.setCustomBooleanProperty('isBetaUser', betaAccess())
+Rox.setCustomBooleanProperty('isBetaUser', betaAccess())
 Rox.setCustomBooleanProperty('isLoggedIn', isLoggedIn())
 Rox.setCustomStringProperty('company', getCompany())
 
