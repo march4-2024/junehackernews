@@ -40,7 +40,7 @@ const options = {
     SS_S3_ENDPOINT: 'https://development-statestore.rollout.io/',
     CLIENT_DATA_CACHE_KEY: 'client_data',
     ANALYTICS_ENDPOINT: 'https://localhost:8787',
-    NOTIFICATIONS_ENDPOINT: 'https://api-staging.saas-dev.beescloud.com/sse'
+    NOTIFICATIONS_ENDPOINT: 'https://api.cloudbees.io'
   },
   debugLevel: 'verbose',
   disableSignatureVerification: true
